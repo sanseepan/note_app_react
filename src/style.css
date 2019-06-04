@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.note-list-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App-header {
+  background-color: #0b53c4;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.list-items {
+  width: 30vw;
+  border: 1px solid lightgray;
+  border-radius: 10px 5px;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+}
+
+.app-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.note-main {
+  margin: 20px;
+}
+
+.trash {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.trash:hover {
+  color: red;
+}
+.plus-circle {
+  color: blue;
+}
+
+.plus-circle:hover {
+  color: grey;
+}
